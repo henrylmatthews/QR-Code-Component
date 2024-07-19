@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>    
+body {
+  background-color: rgb(211, 218, 239);
+}
+.attribution { 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px; 
+  text-align: center; 
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.attribution-a { 
+  font-family:'Times New Roman', Times, serif;
+  font-size: 15px; 
+  text-align: center; 
+  color: hsl(228, 75%, 46%); 
+  text-align: center; 
+}
+.attribution-b { 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px; 
+  text-align: center; 
+  padding-left: 5%;
+  padding-right: 5%;
+}
+img {
+  border-radius: 25px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.shadow-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: auto;
+  border-radius: 25px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  box-sizing: content-box;
+  width: 30%;
+  box-shadow: 0 30px 30px rgba(60, 40, 40, 0.05);
+  margin: auto;
+  position: relative;
+  top: 61px;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(211, 218, 239);
+  }
+.attribution { 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 23px; 
+  color: black;
+  line-height: 29px;
+  text-align: center; 
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.attribution-a { 
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px; 
+  line-height: 25px;
+  text-align: center; 
+  color: hsl(228, 75%, 46%); 
+  text-align: center; 
+}
+.attribution-b { 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px; 
+  text-align: center; 
+  padding-left: 5%;
+  padding-right: 5%;
+}
+img {
+  border-radius: 25px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.shadow-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: auto;
+  border-radius: 25px;
+  background-color: white;
+  padding: 10px 10px 50px 10px;
+  box-sizing: content-box;
+  width: 80%;
+  box-shadow: 0 30px 30px rgba(60, 40, 40, 0.05);
+  margin: auto;
+  }
+}
+  </style>
+</head>
+<body>
+  <!-- <img src="./images/favicon-32x32.png" alt="favicon" width="500" height="200"> -->
+   <div class="shadow-box">
+  <img src="./images/image-qr-code.png" alt="qr-code" height="300" class="center">
+
+  <h1 class="attribution" class="center">Improve your front-end skills by building projects</h1>
+
+  <h2 class="attribution-a" class="center">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h2>
+<!--   
+  <div class="attribution-b">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Henry Matthews</a>. -->
+  </div>
+  </div>
+</body>
+</html>
